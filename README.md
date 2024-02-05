@@ -6,4 +6,4 @@ A web application that gives you inspiration for your next trip!
 
 ## How to install this web application?
 
-## Build with
+## Build with:
