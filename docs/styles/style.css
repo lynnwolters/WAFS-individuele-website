@@ -1,0 +1,25 @@
+:root {
+    /* COLORS */
+    --color-1: #FAFAFA;
+    --color-2: #333333;
+    --color-3: #FFFFFF;
+    --color-4: #0094FF;
+    --color-5: #BEBEBE;
+    --color-6: #EFEFEF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: var(--color-1);
+
+    font-family: "Figtree", sans-serif;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4, h5, h6, p, a, button {
+    font-weight: 600;
+}

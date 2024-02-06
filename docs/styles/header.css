@@ -1,0 +1,25 @@
+header {
+    height: fit-content;
+
+    margin: 12em 4em 0 4em;
+    padding: 0 16%;
+}
+
+header h1 {
+    font-size: 2.5em;
+    text-align: center;
+    color: var(--color-2);
+}
+
+header h1 span {
+    color: var(--color-4)
+}
+
+header p {
+    margin-top: 1.25em;
+
+    font-size: .875em;
+    text-align: center;
+    line-height: 150%;
+    color: var(--color-5);
+}
