@@ -23,3 +23,12 @@ header p {
     line-height: 150%;
     color: var(--color-5);
 }
+
+@media (max-width: 1000px) {
+    header {
+        height: fit-content;
+    
+        margin: 12em 2em 0 2em;
+        padding: 0 16%;
+    }
+}
