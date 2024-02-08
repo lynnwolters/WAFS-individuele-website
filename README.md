@@ -1,4 +1,4 @@
-# Lynn's Travel Blog
+# Travellin
 
 A web application that gives you inspiration for your next trip!
 
