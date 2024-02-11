@@ -18,6 +18,7 @@
         <link href="./styles/header.css" rel="stylesheet"/>
         <link href="./styles/travel-experiences.css" rel="stylesheet"/>
         <link href="./styles/travel-bucketlist.css" rel="stylesheet"/>
+        <link href="./styles/popup.css" rel="stylesheet"/>
         <link href="./styles/footer.css" rel="stylesheet"/>
 
         <!-- FONT -->
@@ -64,26 +65,26 @@
                 </div>
                 <ul>
                     <li>
-                        <button>
-                            <div>Itinerary</div>
+                        <button class="show-popup">
+                            <div>Tuscany</div>
                             <img src="./images/tuscany-banner.jpg" alt="tuscany-banner">
                         </button>
                     </li>
                     <li>
-                        <button>
-                            <div>Itinerary</div>
+                        <button class="show-popup">
+                            <div>Miami</div>
                             <img src="./images/miami-banner.jpg" alt="miami-banner">
                         </button>
                     </li>
                     <li>
-                        <button>
-                            <div>Itinerary</div>
+                        <button class="show-popup">
+                            <div>South Limburg</div>
                             <img src="./images/south-limburg-banner.jpg" alt="south-limburg-banner">
                         </button>
                     </li>
                     <li>
-                        <button>
-                            <div>Itinerary</div>
+                        <button class="show-popup">
+                            <div>Berlin</div>
                             <img src="./images/berlin-banner.jpg" alt="berlin-banner">
                         </button>
                     </li>
@@ -96,53 +97,12 @@
                 <div>
                     <button>All</button>
                     <button>Filter</button>
-                </div>                <ul>
+                </div>                
+                <ul>
                     <li>
                         <button>
                             <div>Activity</div>
-                            <img src="./images/tuscany-banner.jpg" alt="tuscany-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/miami-banner.jpg" alt="miami-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/south-limburg-banner.jpg" alt="south-limburg-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/berlin-banner.jpg" alt="berlin-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/berlin-banner.jpg" alt="berlin-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/berlin-banner.jpg" alt="berlin-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/berlin-banner.jpg" alt="berlin-banner">
-                        </button>
-                    </li>
-                    <li>
-                        <button>
-                            <div>Activity</div>
-                            <img src="./images/berlin-banner.jpg" alt="berlin-banner">
+                            <img src="" alt="">
                         </button>
                     </li>
                 </ul>
@@ -151,12 +111,42 @@
                 </div>
             </section>
 
+            <!-- POPUP -->
+            <article class="popup">  
+                <button class="close-popup">
+                    <img src="./images/close.svg" alt="close">
+                </button>
+                <img src="" alt="">
+                <div>
+                    <h2>Itinerary</h2>
+                    <ul>
+                        <li>
+                            <p>First stop</p>
+                        </li>
+                        <li>
+                            <p>First stop</p>
+                        </li>
+                        <li>
+                            <p>First stop</p>
+                        </li>
+                        <li>
+                            <p>First stop</p>
+                        </li>
+                        <li>
+                            <p>First stop</p>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+
         </main>
 
         <!-- FOOTER -->
         <footer>
             <p>Created by Lynn Wolters</p>
         </footer>
+
+        <script src="./scripts/popup.js"></script>
 
     </body>
 
