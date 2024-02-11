@@ -1,3 +1,4 @@
+import { FetchJsonData } from "./logic/fetchJsonData.js" 
 import { TogglePopup } from "./logic/popup.js" 
 
 export class App {
@@ -6,6 +7,7 @@ export class App {
     }
 
     init = () => {
+        this.fetchJsonData = new FetchJsonData() 
         this.togglePopup = new TogglePopup() 
     }
 }
