@@ -126,6 +126,87 @@
                     ]
                 }
             ]
+        },
+        {
+            "itinerary": "Florida",
+            "stops": [
+                {
+                    "stop": "Miami",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                },
+                {
+                    "stop": "Key West",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itinerary": "South Limburg",
+            "stops": [
+                {
+                    "stop": "",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                },
+                {
+                    "stop": "",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "itinerary": "Berlin",
+            "stops": [
+                {
+                    "stop": "",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                },
+                {
+                    "stop": "",
+                    "activities": [
+                        {   
+                            "activity": "",
+                            "imgUrl": "",
+                            "description": "",
+                            "rating": 0
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
