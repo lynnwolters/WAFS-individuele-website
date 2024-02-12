@@ -5,8 +5,6 @@ export class Popup {
         this.hidePopup = document.querySelector(".hide-popup")
         this.popupTitle = document.querySelector(".popup-title")
         this.popupStops = document.querySelector(".popup-stops")
-        this.popupStop = document.querySelector(".popup-stop")
-        this.popupStopName = document.querySelector(".popup-stop-name")
         this.jsonData = jsonData
         this.init()
     }
@@ -36,11 +34,11 @@ export class Popup {
 
         this.popupStops.innerHTML = ""
         itinerariesData.stops.forEach(stop => {
-            this.popupStop = document.createElement("li")
-            this.popupStopName = document.createElement("p")
-            this.popupStops.appendChild(this.popupStop)
-            this.popupStop.appendChild(this.popupStopName)
-            this.popupStopName.textContent = stop.stop
+            const popupStop = document.createElement("li")
+            const popupStopName = document.createElement("p")
+            this.popupStops.appendChild(popupStop)
+            popupStop.appendChild(popupStopName)
+            popupStopName.textContent = stop.stop
         })
     }    
 }
