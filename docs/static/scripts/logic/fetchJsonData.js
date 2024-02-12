@@ -11,6 +11,5 @@ export class FetchJsonData {
     fetchJsonData = async () => {
         const response = await fetch("./static/data/data.json")
         this.jsonData = await response.json()
-        console.log(this.jsonData)
     }
 }

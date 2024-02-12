@@ -1,4 +1,4 @@
-export class TogglePopup {
+export class Popup {
     constructor() {
         this.popup = document.querySelector(".popup")
         this.showPopup = document.querySelectorAll(".show-popup")
@@ -8,6 +8,7 @@ export class TogglePopup {
 
     init = () => {
         this.bindEvents()
+        this.fillPopup()
     }
 
     bindEvents = () => {
@@ -17,5 +18,9 @@ export class TogglePopup {
 
     togglePopup = () => {
         this.popup.classList.toggle("toggle-popup")
+    }
+
+    fillPopup = () => {
+        
     }
 }

@@ -1,5 +1,5 @@
 import { FetchJsonData } from "./logic/fetchJsonData.js" 
-import { TogglePopup } from "./logic/popup.js" 
+import { Popup } from "./logic/popup.js" 
 
 export class App {
     constructor() {
@@ -8,6 +8,6 @@ export class App {
 
     init = () => {
         this.fetchJsonData = new FetchJsonData() 
-        this.togglePopup = new TogglePopup() 
+        this.popup = new Popup() 
     }
 }
