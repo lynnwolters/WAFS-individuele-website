@@ -158,7 +158,7 @@
             "itinerary": "South Limburg",
             "stops": [
                 {
-                    "stop": "",
+                    "stop": "Maastricht",
                     "activities": [
                         {   
                             "activity": "",
@@ -169,7 +169,7 @@
                     ]
                 },
                 {
-                    "stop": "",
+                    "stop": "Valkenburg",
                     "activities": [
                         {   
                             "activity": "",
@@ -185,7 +185,7 @@
             "itinerary": "Berlin",
             "stops": [
                 {
-                    "stop": "",
+                    "stop": "Winter",
                     "activities": [
                         {   
                             "activity": "",
@@ -196,7 +196,7 @@
                     ]
                 },
                 {
-                    "stop": "",
+                    "stop": "Summer",
                     "activities": [
                         {   
                             "activity": "",
