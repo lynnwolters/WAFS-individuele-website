@@ -61,36 +61,31 @@
 
         <!-- MAIN -->
         <main>
-
             <!-- MY TRAVEL EXPERIENCES - ITINERARIES -->
             <section>
                 <h2>Itineraries</h2>
-                <div>
-                    <button>All</button>
-                    <button>Filter</button>
-                </div>
                 <ul>
                     <li>
                         <button class="show-popup">
-                            <div>Tuscany</div>
+                            <h3>Tuscany</h3>
                             <img src="./static/images/tuscany-banner.jpg" alt="tuscany-banner">
                         </button>
                     </li>
                     <li>
                         <button class="show-popup">
-                            <div>Florida</div>
+                            <h3>Florida</h3>
                             <img src="./static/images/miami-banner.jpg" alt="miami-banner">
                         </button>
                     </li>
                     <li>
                         <button class="show-popup">
-                            <div>South Limburg</div>
+                            <h3>South Limburg</h3>
                             <img src="./static/images/south-limburg-banner.jpg" alt="south-limburg-banner">
                         </button>
                     </li>
                     <li>
                         <button class="show-popup">
-                            <div>Berlin</div>
+                            <h3>Berlin</h3>
                             <img src="./static/images/berlin-banner.jpg" alt="berlin-banner">
                         </button>
                     </li>
@@ -107,7 +102,7 @@
                 <ul>
                     <li>
                         <button>
-                            <div>Activity</div>
+                            <h3>Activity</h3>
                             <img src="" alt="">
                         </button>
                     </li>
@@ -120,14 +115,15 @@
             <!-- POPUP -->
             <article class="popup">  
                 <button class="hide-popup">
-                    <img src="./static/images/close.svg" alt="close">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M1 19L10 10M10 10L19 1M10 10L1 1M10 10L19 19" stroke="#333333" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg> 
                 </button>
                 <div>
                     <h2 class="popup-title"></h2>
                     <ul class="popup-stops"></ul>
                 </div>
             </article>
-
         </main>
 
         <!-- FOOTER -->

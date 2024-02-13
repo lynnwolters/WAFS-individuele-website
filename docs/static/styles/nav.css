@@ -82,18 +82,16 @@ nav ul li:nth-of-type(2) button:nth-of-type(1) {
 
 nav ul li:nth-of-type(2) button:nth-of-type(2) {
     margin: .5em .5em .5em 0em;
+
+    transition: all .2s ease-in-out;
 }
 
 nav ul li:nth-of-type(2) button:nth-of-type(2):hover {
     background-color: var(--color-4);
-
-    transition: all .2s ease-in-out;
 }
 
 nav ul li:nth-of-type(2) button:nth-of-type(2):hover svg path {
-    stroke:  var(--color-3);
-
-    transition: all .2s ease-in-out;
+    stroke: var(--color-3);
 }
 
 @media (max-width: 1000px) {

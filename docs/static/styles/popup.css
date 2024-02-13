@@ -22,7 +22,7 @@ main article {
 main article > button {
     aspect-ratio: 1/1;
     height: 3.5em;
-
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -33,16 +33,20 @@ main article > button {
     border-radius: .8em;
 
     cursor: pointer;
-}
-
-main article > button:hover {
-    background-color: var(--color-5);
 
     transition: all .2s ease-in-out;
 }
 
-main article > button img {
+main article > button:hover {
+    background-color: var(--color-4);
+}
+
+main article > button svg {
     width: 40%;
+}
+
+main article > button:hover svg path {
+    stroke: var(--color-3);
 }
 
 main article > div {
