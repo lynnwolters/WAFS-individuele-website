@@ -28,24 +28,25 @@ export class Popup {
     }
 
     fillPopup = (index) => {
-        const itinerariesData = this.jsonData.itineraries[index]
-        const stopsData = itinerariesData.stops[index]
+        const itinerariesData = this.jsonData.itineraries[index];
         
-        this.popupTitle.textContent = itinerariesData.itinerary
-
-        this.popupStops.innerHTML = ""
+        this.popupTitle.textContent = itinerariesData.itinerary;
+    
+        this.popupStops.innerHTML = "";
+        
         itinerariesData.stops.forEach(stop => {
-            this.popupStop = document.createElement("li")
+            const popupStop = document.createElement("li")
             const popupStopTitle = document.createElement("h3")
-            this.popupStops.appendChild(this.popupStop)
-            this.popupStop.appendChild(popupStopTitle)
+            this.popupStops.appendChild(popupStop)
+            popupStop.appendChild(popupStopTitle)
             popupStopTitle.textContent = stop.stop
-            stopsData.activities.forEach(activity => {
+    
+            stop.activities.forEach(activity => {
                 const popupStopActivity = document.createElement("div")
                 const popupStopActivityTitle = document.createElement("h4")
                 const popupStopActivityImage = document.createElement("img")
                 const popupStopActivityDescription = document.createElement("p")
-                this.popupStop.appendChild(popupStopActivity)
+                popupStop.appendChild(popupStopActivity)
                 popupStopActivity.appendChild(popupStopActivityTitle)
                 popupStopActivityTitle.textContent = activity.activity
                 popupStopActivity.appendChild(popupStopActivityImage)
@@ -54,5 +55,5 @@ export class Popup {
                 popupStopActivityDescription.textContent = activity.description
             })
         })
-    }    
+    }       
 }
