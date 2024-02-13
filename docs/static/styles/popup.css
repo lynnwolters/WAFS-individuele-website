@@ -22,6 +22,10 @@ main article {
 main article > button {
     aspect-ratio: 1/1;
     height: 3.5em;
+
+    position: sticky;
+    top: 0;
+    left: 0;
     
     display: flex;
     justify-content: center;
