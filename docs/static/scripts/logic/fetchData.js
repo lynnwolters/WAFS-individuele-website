@@ -1,7 +1,5 @@
 export class FetchData {
-    constructor() {
-
-    }
+    constructor() {}
 
     init = async () => {
         try {

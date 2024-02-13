@@ -8,37 +8,37 @@
                     "activities": [
                         {   
                             "activity": "Uffizi Museum",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/uffizi-museum.jpg",
                             "description": "Even when you're not really into art, you should definintely visit the Uffizi Museum. The architecture dates back to the Rennaissance time and the building is full of painted ceilings, wonderfull gallery's and stunning details. Besides that you can see artworks from the great Leonardo da Vinci, Caravaggio and Michelangelo.",
                             "rating": 3.5
                         },
                         {
                             "activity": "Piazalle Michelangelo",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/piazalle-michelangelo.jpg",
                             "description": "This is an activity you really can't skip when you're in Florence. I recommend going in the evening when the sun sets so you get the most beautiful view of Florence. Tip: take some snacks and drinks with you, the plaza is a very nice spot to just sit and watch the people / view.",
                             "rating": 4.5
                         },
                         {
                             "activity": "Mercato Centrale",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/mercato-centrale.jpg",
                             "description": "This is a fun activity if you're into food / cooking. Here you can get fresh italian products like burrata and homemade pasta. You also have a foodhall upstairs with lot's of eateries but it's not really special to be honest. I recommend spending the money on products and cook a good meal at home.",
                             "rating": 3
                         },
                         {
                             "activity": "Giardino Boboli",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/giardino-boboli.jpg",
                             "description": "Put on some good hiking shoes because this is not one of the typical parks you know. The Giardino Boboli is the biggest garden in Florence and it also has a lot of hills to climb. On a hot day it can be very exausting but the view is so worth it. You can see the surrounding nature of Florence and the city itself. It also has some unique sculptures, fountains, greenary and buildings.",
                             "rating": 4
                         },
                         {
                             "activity": "Santa Maria Del Fiore",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/santa-maria-del-fiore.jpg",
                             "description": "The duomo of Florence. Definitely worth it to visit. The building is one of the most stunning ones i've ever seen.",
                             "rating": 4
                         },
                         {
                             "activity": "Carola's AirBnB",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/carola-airbnb.jpg",
                             "description": "If you're looking for a place to stay in Florence, i've got one for you! Carola is a very kind lady who has an appartment near the center of Florence. The AirBnB has a big terrace where you have a nice view over Florence. It comes with one bedroom, bathroom, shower and a shared kitchen. Perfect if you don't want to eat out every night to save some money. All that for just €55 euro per night",
                             "rating": 5
                         }

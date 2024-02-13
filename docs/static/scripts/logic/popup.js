@@ -29,16 +29,30 @@ export class Popup {
 
     fillPopup = (index) => {
         const itinerariesData = this.jsonData.itineraries[index]
-
+        const stopsData = itinerariesData.stops[index]
+        
         this.popupTitle.textContent = itinerariesData.itinerary
 
         this.popupStops.innerHTML = ""
         itinerariesData.stops.forEach(stop => {
-            const popupStop = document.createElement("li")
-            const popupStopName = document.createElement("p")
-            this.popupStops.appendChild(popupStop)
-            popupStop.appendChild(popupStopName)
-            popupStopName.textContent = stop.stop
+            this.popupStop = document.createElement("li")
+            const popupStopTitle = document.createElement("h3")
+            this.popupStops.appendChild(this.popupStop)
+            this.popupStop.appendChild(popupStopTitle)
+            popupStopTitle.textContent = stop.stop
+            stopsData.activities.forEach(activity => {
+                const popupStopActivity = document.createElement("div")
+                const popupStopActivityTitle = document.createElement("h4")
+                const popupStopActivityImage = document.createElement("img")
+                const popupStopActivityDescription = document.createElement("p")
+                this.popupStop.appendChild(popupStopActivity)
+                popupStopActivity.appendChild(popupStopActivityTitle)
+                popupStopActivityTitle.textContent = activity.activity
+                popupStopActivity.appendChild(popupStopActivityImage)
+                popupStopActivityImage.src = activity.imgUrl
+                popupStopActivity.appendChild(popupStopActivityDescription)
+                popupStopActivityDescription.textContent = activity.description
+            })
         })
     }    
 }
