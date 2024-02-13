@@ -1,0 +1,109 @@
+{
+    "firstName": "Lynn",
+    "lastName": "Wolters",
+    "avatar_url": "",
+    "age": 24,
+    "city": "Amsterdam",
+    "hobbies": ["Cooking", "Development", "Reading"],
+    "truthsAndLies": ["truth", "truth", "lie"],
+    "favouriteAnimal": "Dachshund",
+    "dateOfBirth": {
+        "year": 1999,
+        "month": 11,
+        "day": 17
+    },
+    "visitedCountries": [
+        {
+            "country": "United States",
+            "capital": "",
+            "recommendations": [
+                "",
+                "",
+                ""
+            ],
+            "rating": 5,
+            "experience": "",
+            "imgUrl": "",
+            "imgAlt": ""
+        },
+        {
+            "country": "Italy",
+            "capital": "B",
+            "recommendations": [
+                "",
+                "",
+                ""
+            ],
+            "rating": 5,
+            "experience": "",
+            "imgUrl": "",
+            "imgAlt": ""
+        },
+        {
+            "country": "Germany",
+            "capital": "B",
+            "recommendations": [
+                "",
+                "",
+                ""
+            ],
+            "rating": 5,
+            "experience": "",
+            "imgUrl": "",
+            "imgAlt": ""
+        },
+        {
+            "country": "United Kingdom",
+            "capital": "B",
+            "recommendations": [
+                "",
+                "",
+                ""
+            ],
+            "rating": 5,
+            "experience": "",
+            "imgUrl": "",
+            "imgAlt": ""
+        },
+        {
+            "country": "Netherlands",
+            "capital": "B",
+            "recommendations": [
+                "",
+                "",
+                ""
+            ],
+            "rating": 5,
+            "experience": "",
+            "imgUrl": "",
+            "imgAlt": ""
+        }
+    ],
+    "bucketList": [
+        {
+            "country": "Iceland",
+            "reason": "",
+            "activities": [
+                {
+                    "activity": ""
+                },
+                {
+                    "activity": ""
+                },
+                {
+                    "activity": ""
+                }
+            ],
+            "imagesUrl": [
+                "",
+                "",
+                ""
+            ],
+            "imagesAlt": [
+                "",
+                "",
+                ""
+            ]
+        }
+    ]
+}
