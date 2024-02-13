@@ -28,7 +28,7 @@
         },
         {
             "country": "Italy",
-            "capital": "B",
+            "capital": "",
             "recommendations": [
                 "",
                 "",
@@ -41,7 +41,7 @@
         },
         {
             "country": "Germany",
-            "capital": "B",
+            "capital": "",
             "recommendations": [
                 "",
                 "",
@@ -54,7 +54,7 @@
         },
         {
             "country": "United Kingdom",
-            "capital": "B",
+            "capital": "",
             "recommendations": [
                 "",
                 "",
@@ -67,7 +67,7 @@
         },
         {
             "country": "Netherlands",
-            "capital": "B",
+            "capital": "",
             "recommendations": [
                 "",
                 "",
