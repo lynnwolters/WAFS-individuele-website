@@ -35,6 +35,12 @@ main article > button {
     cursor: pointer;
 }
 
+main article > button:hover {
+    background-color: var(--color-5);
+
+    transition: all .2s ease-in-out;
+}
+
 main article > button img {
     width: 40%;
 }

@@ -37,6 +37,7 @@ export class Popup {
         itinerariesData.stops.forEach(stop => {
             const popupStop = document.createElement("li")
             const popupStopTitle = document.createElement("h3")
+            
             this.popupStops.appendChild(popupStop)
             popupStop.appendChild(popupStopTitle)
             popupStopTitle.textContent = stop.stop
@@ -46,6 +47,7 @@ export class Popup {
                 const popupStopActivityTitle = document.createElement("h4")
                 const popupStopActivityImage = document.createElement("img")
                 const popupStopActivityDescription = document.createElement("p")
+
                 popupStop.appendChild(popupStopActivity)
                 popupStopActivity.appendChild(popupStopActivityTitle)
                 popupStopActivityTitle.textContent = activity.activity
