@@ -10,37 +10,43 @@
                             "activity": "Uffizi Museum",
                             "imgUrl": "./static/images/uffizi-museum.jpg",
                             "description": "Even when you're not really into art, you should definintely visit the Uffizi Museum. The architecture dates back to the Rennaissance time and the building is full of painted ceilings, wonderfull gallery's and stunning details. Besides that you can see artworks from the great Leonardo da Vinci, Caravaggio and Michelangelo.",
-                            "rating": 3.5
+                            "rating": 3.5,
+                            "category": "Art"
                         },
                         {
                             "activity": "Piazalle Michelangelo",
                             "imgUrl": "./static/images/piazalle-michelangelo.jpg",
                             "description": "This is an activity you really can't skip when you're in Florence. I recommend going in the evening when the sun sets so you get the most beautiful view of Florence. Tip: take some snacks and drinks with you, the plaza is a very nice spot to just sit and watch the people / view.",
-                            "rating": 4.5
+                            "rating": 4.5,
+                            "category": "Views"
                         },
                         {
                             "activity": "Mercato Centrale",
                             "imgUrl": "./static/images/mercato-centrale.jpg",
                             "description": "This is a fun activity if you're into food / cooking. Here you can get fresh italian products like burrata and homemade pasta. You also have a foodhall upstairs with lot's of eateries but it's not really special to be honest. I recommend spending the money on products and cook a good meal at home.",
-                            "rating": 3
+                            "rating": 3,
+                            "category": "Food"
                         },
                         {
                             "activity": "Giardino Boboli",
                             "imgUrl": "./static/images/giardino-boboli.jpg",
                             "description": "Put on some good hiking shoes because this is not one of the typical parks you know. The Giardino Boboli is the biggest garden in Florence and it also has a lot of hills to climb. On a hot day it can be very exausting but the view is so worth it. You can see the surrounding nature of Florence and the city itself. It also has some unique sculptures, fountains, greenary and buildings.",
-                            "rating": 4
+                            "rating": 4,
+                            "category": "Nature"
                         },
                         {
                             "activity": "Santa Maria Del Fiore",
                             "imgUrl": "./static/images/santa-maria-del-fiore.jpg",
                             "description": "The duomo of Florence. Definitely worth it to visit. The building is one of the most stunning ones i've ever seen.",
-                            "rating": 4
+                            "rating": 4,
+                            "category": "Arcitechture"
                         },
                         {
                             "activity": "Carola's AirBnB",
                             "imgUrl": "./static/images/carola-airbnb.jpg",
                             "description": "If you're looking for a place to stay in Florence, i've got one for you! Carola is a very kind lady who has an appartment near the center of Florence. The AirBnB has a big terrace where you have a nice view over Florence. It comes with one bedroom, bathroom, shower and a shared kitchen. Perfect if you don't want to eat out every night to save some money. All that for just €55 euro per night",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Stay"
                         }
                     ]
                 },
@@ -51,19 +57,22 @@
                             "activity": "Liza And Felippo's AirBnB",
                             "imgUrl": "./static/images/liza-and-filippo-airbnb.jpg",
                             "description": "One of the best AirBnB's i've every bin to... If you're looking to relax on your Tuscany trip, this is the AirBnB for you. It has a wonderful view of the Chianti area, it's quiet, you stay in an authentic Italian home but with modern and very well kept interior, you got you're own pool with beds and is nearby a town where you can eat out and do groceries.",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Stay"
                         },
                         {
                             "activity": "Roadtripping Through Chianti Area",
                             "imgUrl": "./static/images/roadtripping-through-chianti-area.jpg",
                             "description": "Driving through the hills of the Chianti area is something you must do! It's so beautiful and romantic, here you can find the real Tuscan and typical nature. You can also stop by some historical towns for a hike or have something to eat.",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Nature"
                         },
                         {
                             "activity": "Bagni San Filippo",
                             "imgUrl": "./static/images/bagni-san-filippo.jpg",
                             "description": "This is an amazing experience. The Bagni San Filippo are natural hot water springs. It creates an unique picture with those baby blue water colors and it's a very relaxing experience because the water is warm en it has waterfalls, almost feels like you're in a hottub but then in nature.",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Nature"
                         }
                     ]
                 },
@@ -74,31 +83,36 @@
                             "activity": "Maggie's AirBnB",
                             "imgUrl": "./static/images/maggies-airbnb.jpg",
                             "description": "This is the best AirBnB I've every bin to... I actually didn't want to put it on the list but I think everyone should get a chance to experience this. Maggie and her mother own this beautiful authentic Italian landhouse and have their own vineyard. It's on top of a hill where you have a great view of San Gimignano. They make everything themselves like, wine, spices, recipes and Maggie's mother has this service that she can cook dinner or breakfast for you. The dishes are amazing and the 'restaurant (her living room)' is so cozy. She goes all out with the dining. During the evening you have a very romantic path behind the AirBnB that leads you to San Gimignano and the view on San Gimignano is something I will nevere forget. The AirBnb is also very cozy and has an unique interior style. Maggie and her mother are amazing and I can't wait to go back one day...",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Stay"
                         },
                         {
                             "activity": "Diborrato Waterfall",
                             "imgUrl": "./static/images/diborrato-waterfall.jpg",
                             "description": "Recommended by Maggie, we arrived at a big waterfall that fell into a unique blue colored pond that leads to the Elsa river. It's great to swim and lay down for the day.",
-                            "rating": 4.5
+                            "rating": 4.5,
+                            "category": "Nature"
                         },
                         {
                             "activity": "Ristorante Bel Soggiorno",
                             "imgUrl": "./static/images/ristorante-bel-soggiorno.jpg",
                             "description": "This restaurant is known for it's view. The service is great, I had a really delicious pasta en drank some good wine. What else do you want? :)",
-                            "rating": 4.5
+                            "rating": 4.5,
+                            "category": "Food"
                         },
                         {
                             "activity": "Hiking Nearby And Around San Gimignano",
                             "imgUrl": "./static/images/hiking-nearby-and-around-san-gimignano.jpg",
                             "description": "San Gimignano is a historical town with a path arround it's high walls, you should definitely walk those paths to fully immerse in the history of this little town and the surrounding nature.",
-                            "rating": 5
+                            "rating": 5,
+                            "category": "Nature"
                         },
                         {
                             "activity": "Wine Tasting At Cappella Sant’Andrea",
                             "imgUrl": "./static/images/wine-tasting-capella-sant-andrea.jpg",
                             "description": "We had a great epxerience at Cappella Sant'Andrea's wine tasting. The owners of this vineyard tells you all about the process of their wine making and after that you will get to taste all their best wines. The vineyard and the landhouse are also really beautiful and they have a lot of dogs that are very welcoming and fun to play with.",
-                            "rating": 4.5
+                            "rating": 4.5,
+                            "category": "Drinks"
                         }
                     ]
                 },
@@ -109,19 +123,22 @@
                             "activity": "Hiking From Vernazza To Monterosso",
                             "imgUrl": "./static/images/hiking-vernazza-to-monterosso.jpg",
                             "description": "For beginners this is a great hike to do, bring some water and good hiking shoes and enjoy the beautiful views of the hike. When you reach Monterosso you can go for a swim in the sea or lay at the famous beach.",
-                            "rating": 4
+                            "rating": 4,
+                            "category": "Nature"
                         },
                         {   
                             "activity": "Finding A Quiet Beach In Portofino",
                             "imgUrl": "./static/images/portofino-beach.jpg",
                             "description": "Cinque Terre is a very busy place in the summer. It was so busy that I actually regretted going there during this time... So my recommendiation is to find some quiet spots in the less popular but also beautifal towns like Portofino. Along the coast you will find several 'private' beaches where you can lay all day without being disturbed by a lot of people.",
-                            "rating": 3.5
+                            "rating": 3.5,
+                            "category": "Nature"
                         },
                         {   
                             "activity": "Visiting Riomaggiore In The Evening",
                             "imgUrl": "./static/images/riomaggiore.jpg",
                             "description": "Personally I think Riomaggiore is the most beautiful towns of all Cinque Terre. Especially during the evening it is so romantic and because the town is on a hill you have this beautiful view of the sea and the sunrise. It also has a lot of typical and authentic Italian restaurants.",
-                            "rating": 4
+                            "rating": 4,
+                            "category": "Nature"
                         }
                     ]
                 }
@@ -137,7 +154,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 },
@@ -148,7 +166,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 }
@@ -164,7 +183,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 },
@@ -175,7 +195,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 }
@@ -191,7 +212,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 },
@@ -202,7 +224,8 @@
                             "activity": "",
                             "imgUrl": "",
                             "description": "",
-                            "rating": 0
+                            "rating": 0,
+                            "category": ""
                         }
                     ]
                 }
