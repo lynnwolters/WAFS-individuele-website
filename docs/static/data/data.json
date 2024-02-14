@@ -49,19 +49,19 @@
                     "activities": [
                         {   
                             "activity": "Liza And Felippo's AirBnB",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/liza-and-filippo-airbnb.jpg",
                             "description": "One of the best AirBnB's i've every bin to... If you're looking to relax on your Tuscany trip, this is the AirBnB for you. It has a wonderful view of the Chianti area, it's quiet, you stay in an authentic Italian home but with modern and very well kept interior, you got you're own pool with beds and is nearby a town where you can eat out and do groceries.",
                             "rating": 5
                         },
                         {
                             "activity": "Roadtripping Through Chianti Area",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/roadtripping-through-chianti-area.jpg",
                             "description": "Driving through the hills of the Chianti area is something you must do! It's so beautiful and romantic, here you can find the real Tuscan and typical nature. You can also stop by some historical towns for a hike or have something to eat.",
                             "rating": 5
                         },
                         {
                             "activity": "Bagni San Filippo",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/bagni-san-filippo.jpg",
                             "description": "This is an amazing experience. The Bagni San Filippo are natural hot water springs. It creates an unique picture with those baby blue water colors and it's a very relaxing experience because the water is warm en it has waterfalls, almost feels like you're in a hottub but then in nature.",
                             "rating": 5
                         }
@@ -72,31 +72,31 @@
                     "activities": [
                         {   
                             "activity": "Maggie's AirBnB",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/maggies-airbnb.jpg",
                             "description": "This is the best AirBnB I've every bin to... I actually didn't want to put it on the list but I think everyone should get a chance to experience this. Maggie and her mother own this beautiful authentic Italian landhouse and have their own vineyard. It's on top of a hill where you have a great view of San Gimignano. They make everything themselves like, wine, spices, recipes and Maggie's mother has this service that she can cook dinner or breakfast for you. The dishes are amazing and the 'restaurant (her living room)' is so cozy. She goes all out with the dining. During the evening you have a very romantic path behind the AirBnB that leads you to San Gimignano and the view on San Gimignano is something I will nevere forget. The AirBnb is also very cozy and has an unique interior style. Maggie and her mother are amazing and I can't wait to go back one day...",
                             "rating": 5
                         },
                         {
                             "activity": "Diborrato Waterfall",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/diborrato-waterfall.jpg",
                             "description": "Recommended by Maggie, we arrived at a big waterfall that fell into a unique blue colored pond that leads to the Elsa river. It's great to swim and lay down for the day.",
                             "rating": 4.5
                         },
                         {
                             "activity": "Ristorante Bel Soggiorno",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/ristorante-bel-soggiorno.jpg",
                             "description": "This restaurant is known for it's view. The service is great, I had a really delicious pasta en drank some good wine. What else do you want? :)",
                             "rating": 4.5
                         },
                         {
                             "activity": "Hiking Nearby And Around San Gimignano",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/hiking-nearby-and-around-san-gimignano.jpg",
                             "description": "San Gimignano is a historical town with a path arround it's high walls, you should definitely walk those paths to fully immerse in the history of this little town and the surrounding nature.",
                             "rating": 5
                         },
                         {
                             "activity": "Wine Tasting At Cappella Sant’Andrea",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/wine-tasting-capella-sant-andrea.jpg",
                             "description": "We had a great epxerience at Cappella Sant'Andrea's wine tasting. The owners of this vineyard tells you all about the process of their wine making and after that you will get to taste all their best wines. The vineyard and the landhouse are also really beautiful and they have a lot of dogs that are very welcoming and fun to play with.",
                             "rating": 4.5
                         }
@@ -107,19 +107,19 @@
                     "activities": [
                         {   
                             "activity": "Hiking From Vernazza To Monterosso",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/hiking-vernazza-to-monterosso.jpg",
                             "description": "For beginners this is a great hike to do, bring some water and good hiking shoes and enjoy the beautiful views of the hike. When you reach Monterosso you can go for a swim in the sea or lay at the famous beach.",
                             "rating": 4
                         },
                         {   
                             "activity": "Finding A Quiet Beach In Portofino",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/portofino-beach.jpg",
                             "description": "Cinque Terre is a very busy place in the summer. It was so busy that I actually regretted going there during this time... So my recommendiation is to find some quiet spots in the less popular but also beautifal towns like Portofino. Along the coast you will find several 'private' beaches where you can lay all day without being disturbed by a lot of people.",
                             "rating": 3.5
                         },
                         {   
                             "activity": "Visiting Riomaggiore In The Evening",
-                            "imgUrl": "",
+                            "imgUrl": "./static/images/riomaggiore.jpg",
                             "description": "Personally I think Riomaggiore is the most beautiful towns of all Cinque Terre. Especially during the evening it is so romantic and because the town is on a hill you have this beautiful view of the sea and the sunrise. It also has a lot of typical and authentic Italian restaurants.",
                             "rating": 4
                         }
