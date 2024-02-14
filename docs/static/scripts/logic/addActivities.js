@@ -1,6 +1,6 @@
 export class AddActivities {
     constructor(jsonData) {
-        this.activitiesContainer = document.querySelector(".activities")
+        this.activitiesContainer = document.querySelector(".activities-container")
         this.loadMoreButton = document.querySelector(".load-more-button")
         this.jsonData = jsonData
         this.activitiesPerPage = 4
