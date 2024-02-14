@@ -50,10 +50,11 @@ export class Popup {
 
                 popupStop.appendChild(popupStopActivity)
                 popupStopActivity.appendChild(popupStopActivityTitle)
-                popupStopActivityTitle.textContent = activity.activity
                 popupStopActivity.appendChild(popupStopActivityImage)
-                popupStopActivityImage.src = activity.imgUrl
                 popupStopActivity.appendChild(popupStopActivityDescription)
+
+                popupStopActivityTitle.textContent = activity.activity
+                popupStopActivityImage.src = activity.imgUrl
                 popupStopActivityDescription.textContent = activity.description
             })
         })
