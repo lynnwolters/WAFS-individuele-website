@@ -54,14 +54,9 @@ nav ul li:nth-of-type(1) a {
 /*  */
 
 nav ul li:nth-of-type(2) {
-    width: calc(7.5em - .8em);
 	height: 100%;
 
 	position: relative;
-
-    background-color: var(--color-6);
-
-    border-radius: .8em;
 }
 
 nav ul li:nth-of-type(2) button {
@@ -131,5 +126,13 @@ nav ul li:nth-of-type(2) button:nth-child(2) {
 
     nav ul li:nth-of-type(2) button {
         border-radius: .6em;
+    }
+}
+
+@media (max-width: 500px) {
+    nav {
+        width: calc(100vw - 2em);
+
+        margin: 1em 1em;
     }
 }
