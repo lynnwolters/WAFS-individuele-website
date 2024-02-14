@@ -108,8 +108,6 @@ nav ul li:nth-of-type(2) button:nth-child(2) {
 	color: var(--color-3);
 }
 
-/*  */
-
 @media (max-width: 1000px) {
     nav {
         width: calc(100vw - 4em);

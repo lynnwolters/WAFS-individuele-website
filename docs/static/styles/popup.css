@@ -105,3 +105,15 @@ main article > div ul li div p {
 main article.toggle-popup {
     transform: translateX(0%);
 }
+
+@media (max-width: 1000px) {
+    main article {
+        width: 60vw;
+    }
+}
+
+@media (max-width: 500px) {
+    main article {
+        width: 80vw;
+    }
+}
