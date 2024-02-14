@@ -8,14 +8,84 @@ main section:nth-of-type(2) h2 {
 }
 
 main section:nth-of-type(2) > div:nth-of-type(1) {
-    height: 2.75em;
+    margin-top: 1.25em;
 
     display: flex;
-
-    margin-top: 1.25em;
+    align-items: center;
 }
 
-main section:nth-of-type(2) > div:nth-of-type(1) button {
+main section:nth-of-type(2) div:nth-of-type(1) > button, main section:nth-of-type(2) div:nth-of-type(1) div > button {
+    width: fit-content;
+    height: 2.75em;
+
+    padding: 0 1.25em;
+
+    border: none;
+    border-radius: .8em;
+
+    color: var(--color-5);
+
+    cursor: pointer;
+
+    transition: all .2s ease-in-out;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) > button {
+    margin-right: 1.25em;
+    
+    background-color: var(--color-4);
+
+    color: var(--color-3);
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div > button {
+    position: relative;
+
+    background-color: var(--color-6);
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div > button:hover {
+    background-color: var(--color-4);
+
+    color: var(--color-3);
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div ul {
+    width: fit-content;
+    height: fit-content;
+
+    position: absolute;
+    z-index: 997;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin-top: .5em;
+    padding: .5em;
+
+    background-color: var(--color-3);
+
+    border-radius: .75em;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div ul.toggle-filter {
+    display: none;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div ul li {
+    height: calc(3.5em - 1.25em);
+
+    margin-bottom: .5em;
+
+    list-style: none;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div ul li:last-of-type {
+    margin-bottom: 0;
+}
+
+main section:nth-of-type(2) div:nth-of-type(1) div ul li button {
     width: fit-content;
     height: 100%;
 
@@ -24,29 +94,9 @@ main section:nth-of-type(2) > div:nth-of-type(1) button {
     border: none;
     border-radius: .8em;
 
-    cursor: pointer;
-}
-
-main section:nth-of-type(2) > div:nth-of-type(1) button:nth-of-type(1) {
-    margin-right: 1.25em;
-    
-    background-color: var(--color-4);
-
-    color: var(--color-3)
-}
-
-main section:nth-of-type(2) > div:nth-of-type(1) button:nth-of-type(2) {
-    background-color: var(--color-6);
-
     color: var(--color-5);
 
-    transition: all .2s ease-in-out;
-}
-
-main section:nth-of-type(2) > div button:nth-of-type(2):hover {
-    background-color: var(--color-4);
-
-    color: var(--color-3);
+    cursor: pointer;
 }
 
 main section:nth-of-type(2) > ul {
@@ -104,7 +154,7 @@ main section:nth-of-type(2) > ul li button img {
     object-fit: cover;
 }
 
-main section:nth-of-type(2) > div:nth-of-type(2) {
+main section:nth-of-type(2) div:nth-of-type(2) {
     height: 2.75em;
 
     display: flex;
@@ -113,7 +163,7 @@ main section:nth-of-type(2) > div:nth-of-type(2) {
     margin-top: 1.25em;
 }
 
-main section:nth-of-type(2) > div:nth-of-type(2) button {
+main section:nth-of-type(2) div:nth-of-type(2) button {
     width: fit-content;
     height: 100%;
 
@@ -131,7 +181,7 @@ main section:nth-of-type(2) > div:nth-of-type(2) button {
     transition: all .2s ease-in-out;
 }
 
-main section:nth-of-type(2) > div:nth-of-type(2) button:hover {
+main section:nth-of-type(2) div:nth-of-type(2) button:hover {
     background-color: var(--color-4);
 
     color: var(--color-3);
@@ -154,10 +204,6 @@ main section:nth-of-type(2) > div:nth-of-type(2) button:hover {
 
     main section:nth-of-type(2) > div:nth-of-type(1) button {
         border-radius: .6em;
-    }
-
-    main section:nth-of-type(2) > div:nth-of-type(1) button:nth-of-type(1) {
-        margin-right: 1em;
     }
 
     main section:nth-of-type(2) > ul {
