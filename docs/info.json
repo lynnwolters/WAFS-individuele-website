@@ -1,109 +1,58 @@
 {
     "firstName": "Lynn",
     "lastName": "Wolters",
-    "avatar_url": "",
-    "age": 24,
+    "avatar_url": "./static/images/me.jpg",
+    "bio": "Front-end Developer",
     "city": "Amsterdam",
-    "hobbies": ["Cooking", "Development", "Reading"],
-    "truthsAndLies": ["truth", "truth", "lie"],
+    "hobbies": ["Cooking", "Reading", "Development", "Design"],
     "favouriteAnimal": "Dachshund",
-    "dateOfBirth": {
-        "year": 1999,
-        "month": 11,
-        "day": 17
-    },
+    "truthsAndLies": [],
+    "age": 24,
     "visitedCountries": [
-        {
-            "country": "United States",
-            "capital": "",
-            "recommendations": [
-                "",
-                "",
-                ""
-            ],
-            "rating": 5,
-            "experience": "",
-            "imgUrl": "",
-            "imgAlt": ""
-        },
-        {
-            "country": "Italy",
-            "capital": "",
-            "recommendations": [
-                "",
-                "",
-                ""
-            ],
-            "rating": 5,
-            "experience": "",
-            "imgUrl": "",
-            "imgAlt": ""
-        },
-        {
-            "country": "Germany",
-            "capital": "",
-            "recommendations": [
-                "",
-                "",
-                ""
-            ],
-            "rating": 5,
-            "experience": "",
-            "imgUrl": "",
-            "imgAlt": ""
-        },
-        {
-            "country": "United Kingdom",
-            "capital": "",
-            "recommendations": [
-                "",
-                "",
-                ""
-            ],
-            "rating": 5,
-            "experience": "",
-            "imgUrl": "",
-            "imgAlt": ""
-        },
-        {
-            "country": "Netherlands",
-            "capital": "",
-            "recommendations": [
-                "",
-                "",
-                ""
-            ],
-            "rating": 5,
-            "experience": "",
-            "imgUrl": "",
-            "imgAlt": ""
-        }
-    ],
+    {
+        "country": "Italy",
+        "recommendations": ["Florence", "San Gimignano", "Cinque Terre", "Castellina in Chianti"],
+        "rating": 5,
+        "experience": "",
+        "imgUrl": "./static/images/tuscany-banner.jpg"
+    },
+    {
+        "country": "Germany",
+        "recommendations": ["Berlin"],
+        "rating": 4,
+        "experience": "blablabla",
+        "imgUrl": "./static/images/berlin-banner.jpg"
+    },
+    {
+        "country": "United States",
+        "recommendations": ["Miami", "Key West"],
+        "rating": 2,
+        "experience": "",
+        "imgUrl": "./static/images/miami-banner.jpg"
+    },
+    {
+        "country": "United Kingdom",
+        "recommendations": ["London"],
+        "rating": 3,
+        "experience": "",
+        "imgUrl": ""
+    },
+    {
+        "country": "Netherlands",
+        "recommendations": ["Maastricht", "Valkenburg"],
+        "rating": 4,
+        "experience": "",
+        "imgUrl": "./static/images/south-limburg-banner.jpg"
+    }],
     "bucketList": [
-        {
-            "country": "Iceland",
-            "reason": "",
-            "activities": [
-                {
-                    "activity": ""
-                },
-                {
-                    "activity": ""
-                },
-                {
-                    "activity": ""
-                }
-            ],
-            "imagesUrl": [
-                "",
-                "",
-                ""
-            ],
-            "imagesAlt": [
-                "",
-                "",
-                ""
-            ]
-        }
-    ]
+    {
+        "country": "Iceland",
+        "reason": "Want to see the beautiful nature with my own eyes.",
+        "imgUrl": ""
+    },
+    {
+        "country": "Denmark",
+        "reason": "Love the nature, design and lifestyle.",
+        "imgUrl": ""
+    }]
 }
