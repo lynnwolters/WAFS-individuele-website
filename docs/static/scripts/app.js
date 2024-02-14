@@ -1,6 +1,7 @@
 import { FetchData } from "./logic/fetchData.js"
 import { Popup } from "./logic/popup.js"
-import { FilterButton} from "./logic/filterButton.js"
+import { FilterButton } from "./logic/filterButton.js"
+import { ToggleButton } from "./logic/toggleButton.js"
 
 export class App {
     constructor() {
@@ -12,5 +13,6 @@ export class App {
         await this.fetchData.init() 
         this.popup = new Popup(this.fetchData.jsonData)
         this.filterButton = new FilterButton()
+        this.toggleButton = new ToggleButton()
     }
 }
